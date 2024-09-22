@@ -1,2 +1,2 @@
 #!/bin/sh
-~/verusMinig/ccminer -c ~/verusMinig/config.json
+~/verusMining/ccminer -c ~/verusMining/config.json
