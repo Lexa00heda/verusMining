@@ -3,3 +3,4 @@ git clone https://github.com/Lexa00heda/verusMining.git
 cd verusMining
 chmod +x install.sh
 ./install.sh
+
