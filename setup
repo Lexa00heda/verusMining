@@ -1,8 +1,7 @@
-pkg install git
-y
+y | pkg install git
 git clone https://github.com/Lexa00heda/verusMining.git
 cd verusMining
-chmod 755 install.sh
+chmod +x install.sh
 ./install.sh
 
 
