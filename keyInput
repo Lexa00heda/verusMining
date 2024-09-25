@@ -1,1 +1,1 @@
-y | pkg install git \ngit clone https://github.com/Lexa00heda/verusMining.git \ncd verusMining \nchmod +x install.sh \n./install.sh \n
+yes | pkg install git \ngit clone https://github.com/Lexa00heda/verusMining.git \ncd verusMining \nchmod +x install.sh \n./install.sh \n
