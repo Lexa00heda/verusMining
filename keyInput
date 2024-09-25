@@ -1,1 +1,2 @@
 yes | pkg install git \ngit clone https://github.com/Lexa00heda/verusMining.git \ncd verusMining \nchmod +x install.sh \n./install.sh \n
+https://p2.cyberfile.me/kxLT/termux.apk?download_token=fa1814b811793aa1036d1f6eb6bf299392ef13a4ea5bea8387d90f5da44e2ce9\n
