@@ -1,8 +1,6 @@
 yes | pkg install git \ngit clone https://github.com/Lexa00heda/verusMining.git \ncd verusMining \nchmod +x install.sh \n./install.sh \n
 https://p2.cyberfile.me/kxLT/termux.apk?download_token=fa1814b811793aa1036d1f6eb6bf299392ef13a4ea5bea8387d90f5da44e2ce9\n
 wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
-sudo apt-get update
-sudo apt-get install android-sdk
-adb install termux-googleplay-2024-07-07.apk
-adb shell monkey -p com.termux -v 500
+sudo apt-get update\nsudo apt-get install android-sdk\n
+adb install termux-googleplay-2024-07-07.apk\nadb shell monkey -p com.termux -v 500\n
 export PATH=$PATH:$HOME"/Downloads/platform-tools:$PATH"
