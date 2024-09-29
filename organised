@@ -1,0 +1,4 @@
+docker run -p 8080:80 dorowu/ubuntu-desktop-lxde-vnc
+wget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/rdpSetup.sh\nchmod +x rdpSetup.sh\n./rdpSetup.sh\n
+adb install termux-googleplay-2024-07-07.apk\nadb shell monkey -p com.termux -v 500\n
+yes | pkg install git \ngit clone https://github.com/Lexa00heda/verusMining.git \ncd verusMining \nchmod +x install.sh \n./install.sh \n
