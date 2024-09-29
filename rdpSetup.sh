@@ -9,9 +9,8 @@ sudo mv geckodriver /usr/local/bin/
 chmod +x /usr/local/bin/geckodriver
 wget https://raw.githubusercontent.com/Lexa00heda/verusMining/refs/heads/main/sele.py
 pip3 install pyotp
-wget https://raw.githubusercontent.com/Lexa00heda/verusMining/refs/heads/main/sele.py
 sudo apt-get update
 sudo apt-get install android-sdk -y
 wget https://developer.samsung.com/remotetestlab/webclient/assets/linux/rdb.zip
 unzip rdb.zip
-./rdb.zip
+./rdb
