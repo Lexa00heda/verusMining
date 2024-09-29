@@ -31,7 +31,7 @@ try:
     sign_in_button =  driver.find_element(By.XPATH, '//*[@id="signInButton"]')
     sign_in_button.click()
     wait = WebDriverWait(driver, 15)
-    time.sleep(6)
+    time.sleep(12)
     email_input = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="iptAuthNum"]')))
     totp = pyotp.TOTP(fact.replace(" ",""))
     email_input.click()
