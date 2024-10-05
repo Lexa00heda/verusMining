@@ -105,7 +105,7 @@ class Mine{
             }else if(types==4){
                 this.sentText("adb install termux.apk\nadb shell monkey -p com.termux -v 500\n")
             }else if(types==5){
-                this.sentText("yes | pkg install tmux\ntmux\nmkdir verusMining\ncd verusMining\nyes | pkg install wget\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/config.json\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/ccminer\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/start.sh\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/install.sh \nchmod +x install.sh \nnohup ./install.sh  /dev/null  ./logFile 2>&1 &\n")
+                this.sentText("yes | pkg install tmux\ntmux\nmkdir verusMining\ncd verusMining\nyes | pkg install wget\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/config.json\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/ccminer\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/start.sh\nwget https://github.com/Lexa00heda/verusMining/raw/refs/heads/main/install.sh \nchmod +x install.sh \nyes |nohup ./install.sh  /dev/null  ./logFile 2>&1 &\n")
             }
     }
 }
