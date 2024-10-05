@@ -27,7 +27,7 @@ try:
     time.sleep(14)
     email_input = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="iptLgnPlnPD"]')))
     email_input.click()
-    email_input.send_keys('Lexa@heda12')
+    email_input.send_keys('')
     sign_in_button =  driver.find_element(By.XPATH, '//*[@id="signInButton"]')
     sign_in_button.click()
     wait = WebDriverWait(driver, 15)
