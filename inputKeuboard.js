@@ -11,7 +11,7 @@ class Mine{
             }
         };
     
-        if(key == '+' || key == '&' ||key == '>' ||  key == ':' || key == '|' || isUpperCase(key)){
+        if(key == '@' || key == '+' || key == '&' ||key == '>' ||  key == ':' || key == '|' || isUpperCase(key)){
             let shift=true
             const keydownEvent = new KeyboardEvent('keydown', {
                 key: key,
