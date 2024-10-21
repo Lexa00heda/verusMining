@@ -6,6 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pyotp
 import time
+import json
+
 
 mail = input("Enter your mail: ")
 fact = input("Enter your 2fact sec: ")
@@ -42,6 +44,11 @@ try:
     time.sleep(2)
     started = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="desktop-btn"]')))
     started.click()
+    cookies = driver.get_cookies()
+    for cookie in cookies:
+        print(cookie)
+    with open('cookies.json', 'w') as f:
+        json.dump(cookies, f)
     print("Finished...")
 
 finally:
